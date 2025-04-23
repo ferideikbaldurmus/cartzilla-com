@@ -9,9 +9,7 @@
             $fontfamily: 'Inter', 'sans-serif';
           h1{
             margin: 0px 0px 24px;
-            font-size: 64px;
-
-            
+            font-size: 64px;            
             color: #181D25;
           
           }
@@ -21,6 +19,34 @@
         }
          
         }
-     
+     .hero__section--main--bottom-text{
+        .hero__section--main--bottom--images{
+           figure{
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        
+           }
+        }
+     }
     }
+    .card-text {
+        font-size: 1rem;
+        @media (max-width: 2000px){
+            font-size: 0.8rem;
+        }
+        @media (max-width: 991px) {
+          font-size: 0.9rem;
+        }
+      
+        @media (max-width: 768px) {
+          font-size: 0.9rem;
+        }
+      
+        @media (max-width: 576px) {
+          font-size: 0.75rem;
+        }
+      }
+      
 }
