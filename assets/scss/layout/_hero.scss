@@ -3,7 +3,9 @@
 
     .hero__section--main {
         margin: 0px 33px 0px 33px;
-     
+     .hero__section--main--cards{
+        margin: -24px -12px 24px;
+     }
         .hero__section--main--title {
             padding: 8px 12px 0px;
             $fontfamily: 'Inter', 'sans-serif';
@@ -20,6 +22,11 @@
          
         }
      .hero__section--main--bottom-text{
+        // padding: 0px 0px 24px;
+      p{
+      
+     
+      }
         .hero__section--main--bottom--images{
            figure{
             img{
