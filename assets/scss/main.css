@@ -1,32 +1,35 @@
-.hero__section {
-  background: linear-gradient(90deg, rgba(203, 201, 233, 0.6) 0%, rgba(227, 232, 251, 0.6) 50%, rgba(255, 224, 244, 0.6) 100%);
-}
-.hero__section nav .nav-chevron-down-icon {
+nav .nav-chevron-down-icon {
   color: var(--bs-gray-dark);
 }
-.hero__section nav .nav-icon svg {
+nav .navbar-brand {
+  font-size: 24px;
+}
+nav .nav-icon svg {
   color: var(--bs-gray-dark);
 }
-.hero__section nav .navbar-toggler {
+nav .navbar-toggler {
   border: none !important;
 }
-.hero__section nav .navbar-toggler:focus {
+nav .navbar-toggler:focus {
   outline: none !important;
   box-shadow: none !important;
 }
-.hero__section nav .nav-link.dropdown-toggle::after {
+nav .nav-link.dropdown-toggle::after {
   display: none;
 }
+
+.hero__section {
+  background: linear-gradient(90deg, rgba(203, 201, 233, 0.6) 0%, rgba(227, 232, 251, 0.6) 50%, rgba(255, 224, 244, 0.6) 100%);
+}
 .hero__section .hero__section--main {
-  margin: 0px 33.4844px 0px 33.4688px;
+  margin: 0px 33px 0px 33px;
 }
 .hero__section .hero__section--main .hero__section--main--title {
-  padding: 0px 12px;
+  padding: 8px 12px 0px;
 }
 .hero__section .hero__section--main .hero__section--main--title h1 {
   margin: 0px 0px 24px;
   font-size: 64px;
-  font-family: "Inter", "sans-serif";
   color: #181D25;
 }
 .hero__section .hero__section--main .hero__section--main--title p {
