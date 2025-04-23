@@ -39,6 +39,9 @@ nav .nav-link.dropdown-toggle::after {
   font-size: 18px;
   color: #585F6B;
 }
+.hero__section .hero__section--main .hero__section--main--bottom-text {
+  padding: 0px 0px 24px;
+}
 .hero__section .hero__section--main .hero__section--main--bottom-text .hero__section--main--bottom--images figure img {
   width: 20px;
   height: 20px;

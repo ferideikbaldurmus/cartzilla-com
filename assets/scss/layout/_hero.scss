@@ -19,14 +19,13 @@
             font-size: 18px;
             color: #585F6B;
         }
-         
+        @media (max-width: 768px) {
+            
+          }
         }
      .hero__section--main--bottom-text{
-        // padding: 0px 0px 24px;
-      p{
-      
-     
-      }
+        padding: 0px 0px 24px;
+  
         .hero__section--main--bottom--images{
            figure{
             img{
