@@ -23,9 +23,13 @@ nav .nav-link.dropdown-toggle::after {
 }
 .hero__section .hero__section--main {
   margin: 0px 33px 0px 33px;
+  padding: 48px 16px 48px 16px;
 }
 .hero__section .hero__section--main .hero__section--main--cards {
   margin: -24px -12px 24px;
+}
+.hero__section .hero__section--main .hero__section--main--cards .card {
+  border: none;
 }
 .hero__section .hero__section--main .hero__section--main--title {
   padding: 8px 12px 0px;
