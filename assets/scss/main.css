@@ -72,4 +72,52 @@ nav .nav-link.dropdown-toggle::after {
   .hero__section .card-text {
     font-size: 0.75rem;
   }
+}
+
+.latest__products--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest__products--header h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.latest__products--header .carousel-controls {
+  display: flex;
+  gap: 10px;
+}
+.latest__products--header .carousel-controls .carousel-control-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #E4E7ED;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.3s ease;
+}
+.latest__products--header .carousel-controls .carousel-control-btn:hover {
+  border-color: #6C727F;
+}
+.latest__products--header .carousel-controls .carousel-control-btn .carousel-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+}
+.latest__products--header .carousel-controls .carousel-control-btn.prev .prev-icon {
+  background-image: url("../icons/arrow-left.svg");
+}
+.carousel-control-btn:hover .latest__products--header .carousel-controls .carousel-control-btn.prev .prev-icon {
+  transform: translateX(-4px);
+}
+.latest__products--header .carousel-controls .carousel-control-btn.next .next-icon {
+  background-image: url("../icons/arrow-right.svg");
+}
+.carousel-control-btn:hover .latest__products--header .carousel-controls .carousel-control-btn.next .next-icon {
+  transform: translateX(4px);
 }/*# sourceMappingURL=main.css.map */
