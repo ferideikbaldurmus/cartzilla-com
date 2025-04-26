@@ -74,6 +74,10 @@ nav .nav-link.dropdown-toggle::after {
   }
 }
 
+.latest__products {
+  margin: 16px 56px;
+  padding: 48px 16px;
+}
 .latest__products--header {
   display: flex;
   justify-content: space-between;
@@ -88,8 +92,8 @@ nav .nav-link.dropdown-toggle::after {
   gap: 10px;
 }
 .latest__products--header .carousel-controls .carousel-control-btn {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid #E4E7ED;
   background-color: transparent;
@@ -109,15 +113,9 @@ nav .nav-link.dropdown-toggle::after {
   background-repeat: no-repeat;
   transition: transform 0.3s ease;
 }
-.latest__products--header .carousel-controls .carousel-control-btn.prev .prev-icon {
-  background-image: url("../icons/arrow-left.svg");
-}
-.carousel-control-btn:hover .latest__products--header .carousel-controls .carousel-control-btn.prev .prev-icon {
+.carousel-control-btn:hover .latest__products--header .carousel-controls .carousel-control-btn {
   transform: translateX(-4px);
 }
-.latest__products--header .carousel-controls .carousel-control-btn.next .next-icon {
-  background-image: url("../icons/arrow-right.svg");
-}
-.carousel-control-btn:hover .latest__products--header .carousel-controls .carousel-control-btn.next .next-icon {
+.carousel-control-btn:hover .latest__products--header .carousel-controls {
   transform: translateX(4px);
 }/*# sourceMappingURL=main.css.map */
