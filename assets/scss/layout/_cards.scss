@@ -3,90 +3,85 @@
 //       border: 1px solid #ddd;
 //       margin-bottom: 30px;
 //     }
-  
+
 //     .card-body {
 //       display: flex;
 //       flex-direction: column;
 //       justify-content: space-between;
 //       height: 100%;
 //     }
-  
+
 //     .left-section {
 //       margin-bottom: 20px;
 //     }
-  
+
 //     .right-section {
 //       margin-top: auto;
 //     }
-  
+
 //     .card-title {
 //       font-size: 18px;
 //       font-weight: bold;
 //     }
-  
+
 //     .card-text {
 //       font-size: 16px;
 //       color: #555;
 //     }
 //   }
 .latest__products {
-    &--header {
+  &--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .carousel-controls {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-  
-      h1 {
-        font-size: 32px;
-        font-weight: 600;
-      }
-  
-      .carousel-controls {
+      gap: 10px;
+
+      .carousel-control-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid #E4E7ED;
+        background-color: transparent;
         display: flex;
-        gap: 10px;
-  
-        .carousel-control-btn {
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          border: 2px solid #E4E7ED;
-          background-color: transparent;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          transition: border-color 0.3s ease;
-  
-          &:hover {
-            border-color: #6C727F;
-          }
-  
-          .carousel-icon {
-            display: block;
-            width: 20px;
-            height: 20px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            transition: transform 0.3s ease;
-          }
-  
-          &.prev .prev-icon {
-            background-image: url('../');
-  
-        
-            .carousel-control-btn:hover & {
-              transform: translateX(-4px);
-            }
-          }
-  
-          &.next .next-icon {
-            background-image: url('../left-chevron-svgrepo-com');
-  
-            
-            .carousel-control-btn:hover & {
-              transform: translateX(4px);
-            }
-          }
+        align-items: center;
+        justify-content: center;
+        transition: border-color 0.3s ease;
+
+        &:hover {
+          border-color: #6C727F;
         }
+
+        .carousel-icon {
+          display: block;
+          width: 20px;
+          height: 20px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          transition: transform 0.3s ease;
+        }
+
+
+
+
+        .carousel-control-btn:hover & {
+          transform: translateX(-4px);
+        }
+      }
+
+
+
+
+      .carousel-control-btn:hover & {
+        transform: translateX(4px);
       }
     }
   }
-  
+}
