@@ -69,18 +69,18 @@
           }
   
           &.prev .prev-icon {
-            background-image: url('../icons/arrow-left.svg');
+            background-image: url('../');
   
-            // Hoverda sağa kayma animasyonu
+        
             .carousel-control-btn:hover & {
               transform: translateX(-4px);
             }
           }
   
           &.next .next-icon {
-            background-image: url('../icons/arrow-right.svg');
+            background-image: url('../left-chevron-svgrepo-com');
   
-            // Hoverda sola kayma animasyonu
+            
             .carousel-control-btn:hover & {
               transform: translateX(4px);
             }
