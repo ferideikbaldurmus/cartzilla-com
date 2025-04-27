@@ -136,6 +136,11 @@ nav .nav-link.dropdown-toggle::after {
     width: 300px;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .latest__products .card .flex-column .card-title .carousel-item .col-sm-6 {
+    display: block;
+  }
+}
 .latest__products .card .flex-column .card-text {
   font-size: 12px;
   color: #4E5562;

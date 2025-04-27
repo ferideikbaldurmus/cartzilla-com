@@ -60,28 +60,36 @@
   }
 
   .card {
-box-sizing: border-box;
-    .flex-column {
-h5{
+    box-sizing: border-box;
 
-}
+    .flex-column {
+      h5 {}
+
       .card-title {
         font-size: 20px;
         color: #181D25;
-  //  h5{
-  //   margin: 0px;
-  //   padding: 0px;
-  //  }
-        @media (max-width: 600px){
+
+        //  h5{
+        //   margin: 0px;
+        //   padding: 0px;
+        //  }
+      
+
+        @media (max-width: 600px) {
           // font-size: 16px;
           // overflow: hidden;
           // text-overflow: ellipsis;
           // white-space: nowrap;
-          font-size: 3vw; 
+          font-size: 3vw;
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
           width: 300px;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+          .carousel-item .col-sm-6 {
+            display: block;  
+          }
         }
       }
 
@@ -89,11 +97,11 @@ h5{
         font-size: 12px;
         color: #4E5562;
 
-     span{
-      margin: 3px;
-     }
+        span {
+          margin: 3px;
+        }
       }
-  
+
     }
   }
 }
