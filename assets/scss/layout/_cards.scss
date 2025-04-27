@@ -63,8 +63,6 @@
   .card {
     box-sizing: border-box;
 
-
-
     .flex-column {
       // display: inline-block; 
        
@@ -101,4 +99,8 @@
   }
 }
 
-
+.explore__design__resources{
+  margin: 16px 56px;
+  padding: 48px 16px;
+  font-family: $fontfamily;
+}

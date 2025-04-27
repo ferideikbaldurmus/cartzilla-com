@@ -143,4 +143,10 @@ nav .nav-link.dropdown-toggle::after {
 }
 .latest__products .card .flex-column .card-text span {
   margin: 3px;
+}
+
+.explore__design__resources {
+  margin: 16px 56px;
+  padding: 48px 16px;
+  font-family: "Inter", "sans-serif";
 }/*# sourceMappingURL=main.css.map */
