@@ -77,6 +77,7 @@ nav .nav-link.dropdown-toggle::after {
 .latest__products {
   margin: 16px 56px;
   padding: 48px 16px;
+  font-family: "Inter", "sans-serif";
 }
 .latest__products--header {
   display: flex;
@@ -118,4 +119,12 @@ nav .nav-link.dropdown-toggle::after {
 }
 .carousel-control-btn:hover .latest__products--header .carousel-controls {
   transform: translateX(4px);
+}
+.latest__products .card .flex-column .card-title {
+  font-size: 20px;
+  color: #181D25;
+}
+.latest__products .card .flex-column .card-text {
+  font-size: 12px;
+  color: #6C727F;
 }/*# sourceMappingURL=main.css.map */

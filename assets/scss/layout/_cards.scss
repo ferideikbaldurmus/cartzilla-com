@@ -1,6 +1,7 @@
 .latest__products {
   margin: 16px 56px;
   padding: 48px 16px;
+  font-family: $fontfamily;
 
   &--header {
     display: flex;
@@ -52,11 +53,24 @@
         }
       }
 
-
-
-
       .carousel-control-btn:hover & {
         transform: translateX(4px);
+      }
+    }
+  }
+
+  .card {
+
+    .flex-column {
+      .card-title {
+        font-size: 20px;
+        color: #181D25;
+
+      }
+
+      .card-text {
+        font-size: 12px;
+        color: #6C727F;
       }
     }
   }
