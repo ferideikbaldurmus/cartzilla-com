@@ -149,4 +149,9 @@ nav .nav-link.dropdown-toggle::after {
   margin: 16px 56px;
   padding: 48px 16px;
   font-family: "Inter", "sans-serif";
+}
+.explore__design__resources .latest__products--header .explore__design__resources--categories .categories--item {
+  border: 1px solid #E0E5EB;
+  padding: 8px 20px;
+  color: #35404F;
 }/*# sourceMappingURL=main.css.map */
