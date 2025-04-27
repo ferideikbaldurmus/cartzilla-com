@@ -11,6 +11,7 @@
     h1 {
       font-size: 32px;
       font-weight: 600;
+      font-size: clamp(23.8px, 4vw, 28px);
     }
 
     .carousel-controls {
@@ -63,8 +64,7 @@
     box-sizing: border-box;
 
     .flex-column {
-      h5 {}
-
+    
       .card-title {
         font-size: 20px;
         color: #181D25;
@@ -73,7 +73,7 @@
         //   margin: 0px;
         //   padding: 0px;
         //  }
-      
+   
 
         @media (max-width: 600px) {
           // font-size: 16px;
@@ -86,11 +86,7 @@
           text-overflow: ellipsis;
           width: 300px;
         }
-        @media (min-width: 768px) and (max-width: 991px) {
-          .carousel-item .col-sm-6 {
-            display: block;  
-          }
-        }
+
       }
 
       .card-text {

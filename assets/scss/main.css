@@ -87,6 +87,7 @@ nav .nav-link.dropdown-toggle::after {
 .latest__products--header h1 {
   font-size: 32px;
   font-weight: 600;
+  font-size: clamp(23.8px, 4vw, 28px);
 }
 .latest__products--header .carousel-controls {
   display: flex;
@@ -134,11 +135,6 @@ nav .nav-link.dropdown-toggle::after {
     overflow: hidden;
     text-overflow: ellipsis;
     width: 300px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .latest__products .card .flex-column .card-title .carousel-item .col-sm-6 {
-    display: block;
   }
 }
 .latest__products .card .flex-column .card-text {
