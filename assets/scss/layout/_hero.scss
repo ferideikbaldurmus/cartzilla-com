@@ -1,97 +1,96 @@
 .hero__section {
-    background: linear-gradient(90deg, rgba(203, 201, 233, .6) 0%, rgba(227, 232, 251, .6) 50%, rgba(255, 224, 244, .6) 100%);  
-   
-    .hero__section--main {
-        margin: 0px 33px 0px 33px;
-        padding: 48px 16px 48px 16px;
-     .hero__section--main--cards{
-        margin: -24px -12px 24px;
-        .card{
-            border: none;
-        }
-     }
-        .hero__section--main--title {
-            padding: 8px 12px 0px;
-            $fontfamily: 'Inter', 'sans-serif';
-          h1{
-            margin: 0px 0px 24px;
-            font-size: 64px;            
-            color: #181D25;
-          }
-          p {
-            font-size: 18px;
-            color: #585F6B;
-        }
-        // @media (max-width: 768px) {  
-        //   h1{
-            
-        //   }
-        //   }
-     
-          // h1 {
-          //   font-size: 64px;
-          //   color: #181D25;
-          //   margin: 0 0 24px;
-          //   font-weight: 700;
-        
-          //   @media (max-width: 1200px) {
-          //     font-size: 41px;
-          //   }
-          //   @media (max-width: 992px) {
-          //     font-size: 48px;
-          //   }
-          //   @media (max-width: 768px) {
-          //     font-size: 41px;
-          //   }
-          // }
-        
-          // p {
-          //   font-size: 18px;
-          //   color: #585F6B;
-          //   margin: 0;
-        
-          //   @media (max-width: 1200px) {
-          //     font-size: 16px;
-          //   }
-          //   @media (max-width: 992px) {
-          //     font-size: 15px;
-          //   }
-          //   @media (max-width: 768px) {
-          //     font-size: 14px;
-          //   }
-      
-          // }
-        }
-     .hero__section--main--bottom-text{
-        padding: 0px 0px 24px;
+  background: linear-gradient(90deg, rgba(203, 201, 233, .6) 0%, rgba(227, 232, 251, .6) 50%, rgba(255, 224, 244, .6) 100%);
 
-        .hero__section--main--bottom--images{
-           figure{
-            img{
-                width: 20px;
-                height: 20px;
-            }
-        
-           }
-        }
-     }
+  .hero__section--main {
+    margin: 0px 33px 0px 33px;
+    padding: 48px 16px 48px 16px;
+
+    .hero__section--main--cards {
+      margin: -24px -12px 24px;
+
+      .card {
+        border: none;
+      }
+
+      @media (max-width: 768px) {
+        margin: 0px;
+        padding: 0px;
+      }
     }
-    .card-text {
-        font-size: 1rem;
-        @media (max-width: 2000px){
-            font-size: 0.8rem;
-        }
-        @media (max-width: 991px) {
-          font-size: 0.9rem;
-        }
-      
+
+    .hero__section--main--title {
+      padding: 8px 12px 0px;
+      $fontfamily: 'Inter', 'sans-serif';
+
+      h1 {
+        margin: 0px 0px 24px;
+        font-size: 64px;
+        color: #181D25;
+
         @media (max-width: 768px) {
-          font-size: 0.9rem;
-        }
-      
-        @media (max-width: 576px) {
-          font-size: 0.75rem;
+          font-size: 7vw;
         }
       }
-      
+
+      p {
+        font-size: 18px;
+        color: #585F6B;
+
+        @media (max-width: 768px) {
+          font-size: 3.3vw;
+        }
+
+      }
+
+      @media (max-width: 768px) {
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+.hero__section--main--bottom--images{
+img{
+  @media (max-width: 768px) {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+}
+ 
+}
+    .hero__section--main--bottom-text {
+      padding: 0px 0px 24px;
+
+      .hero__section--main--bottom--images {
+        figure {
+          img {
+            width: 20px;
+            height: 20px;
+          }
+
+        }
+      }
+    }
+  }
+
+  .card-text {
+    font-size: 1rem;
+
+    @media (max-width: 2000px) {
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 991px) {
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 0.75rem;
+    }
+  }
+
 }

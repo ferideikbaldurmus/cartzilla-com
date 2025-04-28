@@ -31,6 +31,12 @@ nav .nav-link.dropdown-toggle::after {
 .hero__section .hero__section--main .hero__section--main--cards .card {
   border: none;
 }
+@media (max-width: 768px) {
+  .hero__section .hero__section--main .hero__section--main--cards {
+    margin: 0px;
+    padding: 0px;
+  }
+}
 .hero__section .hero__section--main .hero__section--main--title {
   padding: 8px 12px 0px;
 }
@@ -39,9 +45,33 @@ nav .nav-link.dropdown-toggle::after {
   font-size: 64px;
   color: #181D25;
 }
+@media (max-width: 768px) {
+  .hero__section .hero__section--main .hero__section--main--title h1 {
+    font-size: 7vw;
+  }
+}
 .hero__section .hero__section--main .hero__section--main--title p {
   font-size: 18px;
   color: #585F6B;
+}
+@media (max-width: 768px) {
+  .hero__section .hero__section--main .hero__section--main--title p {
+    font-size: 3.3vw;
+  }
+}
+@media (max-width: 768px) {
+  .hero__section .hero__section--main .hero__section--main--title {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__section .hero__section--main .hero__section--main--bottom--images img {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
 }
 .hero__section .hero__section--main .hero__section--main--bottom-text {
   padding: 0px 0px 24px;
@@ -154,4 +184,18 @@ nav .nav-link.dropdown-toggle::after {
   border: 1px solid #E0E5EB;
   padding: 8px 20px;
   color: #35404F;
+}
+.explore__design__resources .card {
+  font-family: "Inter", "sans-serif";
+}
+.explore__design__resources .card .card-body .card-title img {
+  width: 20px;
+  height: 20px;
+}
+.explore__design__resources .card .card-body .card-title h5 {
+  font-size: 14px;
+}
+.explore__design__resources .card .card-body .card-title p {
+  font-size: 12px;
+  text-wrap: nowrap;
 }/*# sourceMappingURL=main.css.map */
