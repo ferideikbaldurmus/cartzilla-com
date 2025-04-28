@@ -188,6 +188,9 @@ nav .nav-link.dropdown-toggle::after {
 .explore__design__resources .card {
   font-family: "Inter", "sans-serif";
 }
+.explore__design__resources .card .card-body .card-title {
+  padding: 0px;
+}
 .explore__design__resources .card .card-body .card-title img {
   width: 20px;
   height: 20px;
@@ -195,7 +198,17 @@ nav .nav-link.dropdown-toggle::after {
 .explore__design__resources .card .card-body .card-title h5 {
   font-size: 14px;
 }
+@media (max-width: 600px) {
+  .explore__design__resources .card .card-body .card-title h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    width: 150px;
+  }
+}
 .explore__design__resources .card .card-body .card-title p {
   font-size: 12px;
   text-wrap: nowrap;
+  padding: 0px;
+  margin: 0px;
 }/*# sourceMappingURL=main.css.map */

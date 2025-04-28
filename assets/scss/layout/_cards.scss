@@ -122,17 +122,37 @@
 
     .card-body {
       .card-title {
-        img{
+        padding: 0px;
+
+        img {
           width: 20px;
           height: 20px;
         }
+
         h5 {
           font-size: 14px;
+
+           @media (max-width: 600px) {
+          //   font-size: 2.5vw;
+             overflow: hidden;
+            text-overflow: ellipsis;
+            text-wrap: nowrap;
+             width: 150px;
+           }
         }
-        p{
+
+        p {
           font-size: 12px;
           text-wrap: nowrap;
+          padding: 0px;
+          margin: 0px;
+
+          // @media (max-width: 600px) {
+          //   margin: 0px;
+          //   padding: 0px;
+          // }
         }
+
       }
     }
   }
