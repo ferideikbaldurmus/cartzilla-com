@@ -176,8 +176,6 @@ nav .nav-link.dropdown-toggle::after {
 }
 
 .explore__design__resources {
-  margin: 16px 56px;
-  padding: 48px 16px;
   font-family: "Inter", "sans-serif";
 }
 .explore__design__resources .latest__products--header .explore__design__resources--categories .categories--item {
@@ -187,6 +185,9 @@ nav .nav-link.dropdown-toggle::after {
 }
 .explore__design__resources .card {
   font-family: "Inter", "sans-serif";
+}
+.explore__design__resources .card .card-body {
+  padding: 0px;
 }
 .explore__design__resources .card .card-body .card-title {
   padding: 0px;

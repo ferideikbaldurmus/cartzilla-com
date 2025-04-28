@@ -101,8 +101,8 @@
 }
 
 .explore__design__resources {
-  margin: 16px 56px;
-  padding: 48px 16px;
+  // margin: 16px 56px;
+  // padding: 48px 16px;
   font-family: $fontfamily;
 
   .latest__products--header {
@@ -121,6 +121,7 @@
     font-family: $fontfamily;
 
     .card-body {
+      padding: 0px;
       .card-title {
         padding: 0px;
 
