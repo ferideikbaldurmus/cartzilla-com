@@ -213,6 +213,6 @@ nav .nav-link.dropdown-toggle::after {
   padding: 0px;
   margin: 0px;
 }
-.explore__design__resources .card .card-body .card-title .cards-bottom-text .card-text p:nth-child(2) {
+.explore__design__resources .card .card-body .card-title .cards-bottom-text .card-text p:first-child {
   margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */
