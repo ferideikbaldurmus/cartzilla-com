@@ -149,7 +149,9 @@
 .cards-bottom-text{
   .card-text{
     
-      margin-left: 20px;
+  p:nth-child(){
+    margin-left: 20px;
+  }
      
   }
 
