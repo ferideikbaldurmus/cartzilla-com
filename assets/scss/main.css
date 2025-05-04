@@ -212,4 +212,7 @@ nav .nav-link.dropdown-toggle::after {
   text-wrap: nowrap;
   padding: 0px;
   margin: 0px;
+}
+.explore__design__resources .card .card-body .card-title .cards-bottom-text .card-text {
+  margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */
