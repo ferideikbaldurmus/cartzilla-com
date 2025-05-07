@@ -119,12 +119,15 @@
 
     .card-body {
       padding: 0px;
+
       .card-title {
         padding: 0px;
+
         img {
           width: 20px;
           height: 20px;
         }
+
         h5 {
           font-size: 14px;
 
@@ -136,6 +139,7 @@
             width: 150px;
           }
         }
+
         p {
           font-size: 12px;
           text-wrap: nowrap;
@@ -147,7 +151,6 @@
           //   padding: 0px;
           // }
         }
-
         .cards-bottom-text {
           .card-text {
 
