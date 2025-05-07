@@ -85,6 +85,7 @@
         }
 
       }
+
       .card-text {
         font-size: 12px;
         color: #4E5562;
@@ -97,6 +98,7 @@
     }
   }
 }
+
 .explore__design__resources {
   // margin: 16px 56px;
   // padding: 48px 16px;
@@ -111,26 +113,33 @@
       }
     }
   }
+
   .card {
     font-family: $fontfamily;
+
     .card-body {
       padding: 0px;
+
       .card-title {
         padding: 0px;
+
         img {
           width: 20px;
           height: 20px;
         }
+
         h5 {
           font-size: 14px;
-           @media (max-width: 600px) {
-          //   font-size: 2.5vw;
-             overflow: hidden;
+
+          @media (max-width: 600px) {
+            //   font-size: 2.5vw;
+            overflow: hidden;
             text-overflow: ellipsis;
             text-wrap: nowrap;
-             width: 150px;
-           }
+            width: 150px;
+          }
         }
+
         p {
           font-size: 12px;
           text-wrap: nowrap;
@@ -142,17 +151,17 @@
           //   padding: 0px;
           // }
         }
-        
-.cards-bottom-text{
-  .card-text{
-    
-  p:first-child{
-    margin-left: 20px;
-  }
-     
-  }
 
-}
+        .cards-bottom-text {
+          .card-text {
+
+            p:first-child {
+              margin-left: 20px;
+            }
+
+          }
+
+        }
       }
     }
   }
