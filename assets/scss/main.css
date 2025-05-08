@@ -226,6 +226,12 @@ nav .nav-link.dropdown-toggle::after {
 @media (max-width: 576px) {
   .explore__design__resources .card .card-title h5 {
     max-width: 150px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .explore__design__resources .card .card-body {
+    padding: 0px;
+    margin: 0px;
   }
   .explore__design__resources .card .card-title {
     padding: 20px 20px;

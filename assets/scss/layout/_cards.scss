@@ -173,9 +173,12 @@
     @media (max-width: 576px) {
       .card-title h5 {
         max-width: 150px;
+        padding: 0px;
+        margin: 0px;
       }
       .card-body{
-       
+       padding: 0px;
+       margin: 0px;
       }
       .card-title{
         padding: 20px 20px;
