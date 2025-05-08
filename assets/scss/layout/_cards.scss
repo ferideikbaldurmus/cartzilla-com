@@ -119,6 +119,13 @@
 
     .card-body {
       padding: 0px;
+      overflow: hidden;
+
+      .card-img-top {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
 
       .card-title {
         padding: 0px;
@@ -162,5 +169,12 @@
         }
       }
     }
+
+    @media (max-width: 576px) {
+      .card-title h5 {
+        max-width: 150px;
+      }
+    }
+
   }
 }
