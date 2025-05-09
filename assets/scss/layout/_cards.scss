@@ -160,10 +160,12 @@
 
         .cards-bottom-text {
           .card-text {
-              .sales-number,
-              .sales-label {
-                display: inline-block;
-              }
+
+            .sales-number,
+            .sales-label {
+              display: inline-block;
+            }
+
             p:first-child {
               margin-left: 20px;
             }
@@ -178,10 +180,12 @@
         padding: 0px;
         margin: 0px;
       }
+
       .sales-number,
       .sales-label {
         display: block;
       }
+
       .card-body {
         padding: 0px;
         margin: 0px;
@@ -194,7 +198,7 @@
 
     @media (max-width: 1300px) {
       .card-body {
-
+        padding: 200px 50px;
       }
     }
 
