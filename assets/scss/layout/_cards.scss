@@ -117,6 +117,7 @@
     .card-body {
       padding: 0px;
       overflow: hidden;
+    
 
       .card-img-top {
         max-width: 100%;
@@ -161,10 +162,7 @@
         .cards-bottom-text {
           .card-text {
 
-            .sales-number,
-            .sales-label {
-              display: inline-block;
-            }
+
 
             p:first-child {
               margin-left: 20px;
@@ -179,12 +177,19 @@
         max-width: 150px;
         padding: 0px;
         margin: 0px;
+
+
+        .sales-info {
+          width: 100%;
+          margin-top: 5px;
+          flex-wrap: nowrap;
+        }
       }
 
-      .sales-number,
-      .sales-label {
-        display: block;
+      .cards-bottom-text {
+        flex-wrap: nowrap;
       }
+
 
       .card-body {
         padding: 0px;
@@ -199,6 +204,7 @@
     @media (max-width: 1300px) {
       .card-body {
         padding: 200px 50px;
+        
       }
     }
 
