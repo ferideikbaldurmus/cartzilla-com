@@ -63,7 +63,6 @@
         font-size: 20px;
         color: #181D25;
 
-
         @media (max-width: 600px) {
           // font-size: 16px;
           // overflow: hidden;
@@ -76,7 +75,6 @@
           width: 300px;
           // display: inline-block; 
         }
-
       }
 
       .card-text {
@@ -114,7 +112,6 @@
       padding: 0px;
       overflow: hidden;
 
-
       .card-img-top {
         max-width: 100%;
         height: auto;
@@ -142,7 +139,7 @@
             width: 150px;
           }
         }
-
+        
         p {
           font-size: 12px;
           text-wrap: nowrap;
@@ -172,19 +169,16 @@
         padding: 0px;
         margin: 0px;
 
-
         .sales-info {
           width: 100%;
           margin-top: 5px;
           flex-wrap: nowrap;
-
         }
       }
 
       .cards-bottom-text {
         flex-wrap: nowrap;
       }
-
 
       .card-body {
         padding: 0px;
